@@ -1,6 +1,7 @@
 <?php
 
 include_once "DAOCoches.php";
+//echo __DIR__; //muestra la ruta absoluta del archivo actual
 include_once __DIR__ . "/../../modelo/Coche.php";
 
 class DAOCochesMySQL implements DAOCoches
